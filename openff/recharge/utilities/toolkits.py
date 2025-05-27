@@ -204,6 +204,9 @@ def compute_vdw_radii(
             "Na": 2.27,
             "Mg": 1.73,
             "K": 2.75,
+            "B": 1.5, # From antechamber
+            "Mn": 2.0, # From antechamber
+            "Fe": 2.0, # From antechamber
         }
 
         return [
