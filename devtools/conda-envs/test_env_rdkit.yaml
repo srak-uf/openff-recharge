@@ -25,7 +25,7 @@ dependencies:
   - rdkit
 
     # ESP calculations
-  - psi4 =1.9
+  - psi4 =1.10
 
     # XTB charges
   - xtb-python
@@ -38,6 +38,9 @@ dependencies:
 
   # Optimization
   - pytorch
+
+    # Shim
+  - xmltodict !=1.0.3
 
     # Testing
   - pytest
